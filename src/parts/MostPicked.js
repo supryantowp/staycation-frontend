@@ -24,7 +24,7 @@ export default function MostPicked({ data, refMostPicked }) {
                 type="link"
                 href={`/properties/${item._id}`}
               >
-                <h5>{item.name}</h5>
+                <h5 className="text-gray-900">{item.name}</h5>
               </Button>
               <span>
                 {item.city}, {item.country}
